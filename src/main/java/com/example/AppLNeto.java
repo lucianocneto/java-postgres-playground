@@ -37,6 +37,34 @@ public class AppLNeto {
        vetor[0] = 1;
        System.out.println("Valor da posicao 0: "+vetor[0]);
     
+    //trabalhando com matrizes
+       double vetorDouble1[] = {1, 2, 3};
+       double vetorDouble2[] = vetorDouble1;
+
+       System.out.println("VetorDouble3: "+ Arrays.toString(vetorDouble2));
+
+       int vetor3[] = new int[4];
+       vetor3[0] = 100;
+       vetor3[1] = 200;
+       vetor3[2] = 300;
+       vetor3[3] = 400;
+
+       System.out.println("Vetor3: "+Arrays.toString(vetor3));
+
+    
+       System.out.println(Arrays.toString(vetor));
+
+       System.out.println("Valor da posicao 0: "+vetor[0]);
+       System.out.println("Valor da posicao 1: "+vetor[1]);
+       System.out.println("Valor da posicao 2: "+vetor[2]);
+       System.out.println("Valor da posicao 3: "+vetor[3]);
+       System.out.println("Valor da posicao 4: "+vetor[4]);
+       System.out.println("Valor da posicao 5: "+vetor[5]);
+
+       vetor[0] = 1;
+       System.out.println("Valor da posicao 0: "+vetor[0]);
+    
+
     }
      
 }
