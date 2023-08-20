@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Arrays;
+
 public class AppLNeto {
     public static void main(String[] args) {
         System.out.println("Minha App Java\n");
@@ -16,10 +18,15 @@ public class AppLNeto {
         System.out.println("Sexo do participante é: "+sexo);
 
         boolean pessoaPcD = true;
-        //case pessoaPcD = true {
-        //    'Sim'
-        //}
+        //boolean é true ou false
 
         System.out.println("Pessoa com necessidades especiais? "+pessoaPcD);
+    
+       //trabalhando com vetores
+       double vetor[] = {10, 20, 30, 40, 50};
+    
+       System.out.println(Arrays.toString(vetor));
+    
     }
+     
 }
