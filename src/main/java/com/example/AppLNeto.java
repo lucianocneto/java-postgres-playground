@@ -23,9 +23,19 @@ public class AppLNeto {
         System.out.println("Pessoa com necessidades especiais? "+pessoaPcD);
     
        //trabalhando com vetores
-       double vetor[] = {10, 20, 30, 40, 50};
+       double vetor[] = {10, 20, 30, 40, 50, 60};
     
        System.out.println(Arrays.toString(vetor));
+
+       System.out.println("Valor da posicao 0: "+vetor[0]);
+       System.out.println("Valor da posicao 1: "+vetor[1]);
+       System.out.println("Valor da posicao 2: "+vetor[2]);
+       System.out.println("Valor da posicao 3: "+vetor[3]);
+       System.out.println("Valor da posicao 4: "+vetor[4]);
+       System.out.println("Valor da posicao 5: "+vetor[5]);
+
+       vetor[0] = 1;
+       System.out.println("Valor da posicao 0: "+vetor[0]);
     
     }
      
