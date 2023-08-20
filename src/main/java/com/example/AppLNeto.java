@@ -11,5 +11,15 @@ public class AppLNeto {
 
         double peso = 88.5;
         System.out.println("Idade é: "+idade+" Peso é: "+peso);
+
+        char sexo = 'M';
+        System.out.println("Sexo do participante é: "+sexo);
+
+        boolean pessoaPcD = true;
+        //case pessoaPcD = true {
+        //    'Sim'
+        //}
+
+        System.out.println("Pessoa com necessidades especiais? "+pessoaPcD);
     }
 }
