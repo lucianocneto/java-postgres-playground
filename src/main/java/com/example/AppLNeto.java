@@ -41,7 +41,7 @@ public class AppLNeto {
        double vetorDouble1[] = {1, 2, 3};
        double vetorDouble2[] = vetorDouble1;
 
-       System.out.println("VetorDouble3: "+ Arrays.toString(vetorDouble2));
+       System.out.println("VetorDouble2: "+ Arrays.toString(vetorDouble2));
 
        int vetor3[] = new int[4];
        vetor3[0] = 100;
