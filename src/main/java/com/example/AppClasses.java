@@ -8,8 +8,9 @@ class Cliente {
     }
 
     public void setSexo(char sexo) {
-        if(sexo == 'M' || sexo == 'F')
-        this.sexo = sexo;
+        if (sexo == 'M' || sexo == 'm' || sexo == 'F' || sexo == 'f')
+            this.sexo = sexo;
+        else System.out.println("O sexo deve ser 'M' ou 'F'");
     }
 
     public int getAnoNascimento() {
@@ -46,6 +47,8 @@ public class AppClasses {
         System.out.println("Renda: " + cliente.getRenda());
         System.out.println("Sexo: " + cliente.getSexo());
         System.out.println("Ano de Nascimento: " + cliente.getAnoNascimento());
+
+        System.out.println();
 
         Cliente cliente2 = new Cliente();
         cliente2.setRenda(2000);
